@@ -8,4 +8,5 @@ class Person
     attributes.each do
       self.send{attribute}
     end
+  end
 end
